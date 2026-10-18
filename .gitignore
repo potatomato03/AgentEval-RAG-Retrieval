@@ -1,0 +1,8 @@
+# Kaggle competition data and derived artifacts are not redistributed
+*.csv
+*.npy
+# Personal / scratch files
+Methods/
+Check.ipynb
+.ipynb_checkpoints/
+__pycache__/

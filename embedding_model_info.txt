@@ -1,0 +1,13 @@
+AgentEval Part I — Embedding Artifact Info
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "normalized": true,
+  "batch_size": 64,
+  "num_chunks": 3600,
+  "files": {
+    "embeddings": "corpus_embeddings.npy",
+    "chunk_ids": "corpus_chunk_ids.npy"
+  },
+  "note": "Embeddings generated offline. Kaggle baseline uses these files with Internet OFF."
+}
